@@ -1,0 +1,20 @@
+export const ADD_TASK = "task/ADD_TASK";
+export const REMOVE_TASK = "task/REMOVE_TASK";
+export const CHANGE_TASK_PRIORITY = "task/CHANGE_TASK_PRIORITY";
+export const CHANGE_TASK_TITLE = "task/CHANGE_TASK_TITLE";
+export const CHANGE_TASK_TERMS = "task/CHANGE_TASK_TERMS";
+export const TOGGLE_TASK_COMPLETE = "task/TOGGLE_TASK_COMPLETE";
+export const ADD_COLUMN = "column/ADD_COLUMN";
+export const REMOVE_COLUMN = "column/REMOVE_COLUMN";
+export const CHANGE_COLUMNS_TITLE = "column/REMOVE_COLUMN";
+export const SET_DRAGGED_TASK = "draggedTask/SET_DRAGGED_TASK";
+export const REMOVE_DRAGGED_TASK = "draggedTask/REMOVE_DRAGGED_TASK";
+export const TOGGLE_MODAL_TASK_FORM = "modalTaskForm/TOGGLE_MODAL_TASK_FORM";
+export const FILTER_ALL = "filter/SHOW_ALL";
+export const FILTER_COMPLETED = "filter/SHOW_COMPLETED";
+export const FILTER_NOT_COMPLETED = "filter/SHOW_NOT_COMPLETED";
+export const SET_ACTIVE_COLUMN_MODAL_VALUE =
+  "modalTaskForm/SET_ACTIVE_COLUMN_MODAL_VALUE";
+export const ADD_MESSAGE = "message/ADD_MESSAGE";
+export const REMOVE_MESSAGE = "message/REMOVE_MESSAGE";
+export const REMOVE_ALL_MESSAGES = "message/REMOVE_ALL_MESSAGES";
